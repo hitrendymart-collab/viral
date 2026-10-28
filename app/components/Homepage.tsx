@@ -103,7 +103,7 @@ const downloadOptions = [
   { quality: "4K UHD", description: "Ultra HD · Highest quality" },
 ];
 
-export default function Page({imagePath}) {
+export default function Page({imagePath}: { imagePath: string }) {
   useEffect(() => {
     // Popunder ad script
     const popunder = document.createElement("script");
@@ -146,14 +146,21 @@ export default function Page({imagePath}) {
 
   {/* Preview Content */}
       <div className="relative z-10 flex flex-col items-center px-4">
-        <button
-          type="button"
-          aria-label="Video preview"
-          className="grid h-14 w-14 place-items-center rounded-full bg-lime-400 text-xl text-slate-950 shadow-lg shadow-lime-400/20 transition hover:scale-110 sm:h-16 sm:w-16"
-        >
-          ▶
-        </button>
-      </div>
+            <button
+                type="button"
+                aria-label="Open Smart Link"
+                onClick={() => {
+                window.open(
+                    "https://www.profitableratecpmnetwork.com/bs53kqygr8?key=86673c8a90f3a1dfc426eea66db81670",
+                    "_blank",
+                    "noopener,noreferrer"
+                );
+                }}
+                className="grid h-14 w-14 place-items-center rounded-full bg-lime-400 text-xl text-slate-950 shadow-lg shadow-lime-400/20 transition hover:scale-110 sm:h-16 sm:w-16"
+            >
+                ▶
+            </button>
+            </div>
 
       {/* Quality Badge */}
       <span className="absolute bottom-3 right-3 z-10 rounded bg-black/75 px-2 py-1 text-[10px] font-bold text-white">
