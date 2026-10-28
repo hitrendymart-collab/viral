@@ -19,43 +19,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <header className="navbar">
-          <a
-            href={SMART_LINK}
-            className="logo"
-            target="_blank"
-            rel="nofollow sponsored noopener noreferrer"
-          >
-            <span className="logo-icon">▶</span>
-            {" "}Fucking Sex
-            <span className="green">Bangla</span>
-          </a>
-
-          <a
-            href={SMART_LINK}
-            className="nav-label"
-            target="_blank"
-            rel="nofollow sponsored noopener noreferrer"
-          >
-            VIDEO COLLECTION
-          </a>
-        </header>
 
         {children}
 
-        <footer className="footer">
-          <a
-            href={SMART_LINK}
-            className="logo"
-            target="_blank"
-            rel="nofollow sponsored noopener noreferrer"
-          >
-            Fucking Sex{" "}
-            <span className="green">Bangla</span>
-          </a>
-
-          <span>© 2026 · All rights reserved</span>
-        </footer>
       </body>
     </html>
   );
