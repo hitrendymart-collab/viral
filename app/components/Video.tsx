@@ -214,7 +214,7 @@ export default function Page({ videoPath }: VideoPageProps) {
                 <span className="eyebrow">FEATURED VIDEO</span>
                 <h2>Watch Preview</h2>
               </div>
-              <span className="quality-badge">HD READY</span>
+              <a  href={SMART_LINK}   className="quality-badge">HD READY</a>
             </div>
 
             <AdBanner type="banner728" />
@@ -222,9 +222,6 @@ export default function Page({ videoPath }: VideoPageProps) {
             <section className="download-section">
               <span className="eyebrow">CHOOSE YOUR QUALITY</span>
               <h2>Download Video</h2>
-              <p className="description">
-                Select a resolution to continue.
-              </p>
 
               <div className="download-grid">
                 {downloadOptions.map((item) => (
