@@ -7,8 +7,8 @@ const SMART_LINK =
   "https://www.profitableratecpmnetwork.com/bs53kqygr8?key=86673c8a90f3a1dfc426eea66db81670";
 
 export const metadata: Metadata = {
-  title: "Fucking Sex Bangla",
-  description: "Fucking Sex Bangla",
+  title: "Viral Bangladeshi Videos",
+  description: "Latest viral videos from Bangladesh",
 };
 
 export default function RootLayout({
